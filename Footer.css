@@ -1,0 +1,48 @@
+.foot{
+    display: grid;
+    grid-template-columns:1fr;
+    list-style: none;
+    text-decoration: none;
+    background-color: grey;
+    justify-content: center;
+    
+}
+p{  
+    height: 5px;
+    color: white;
+    justify-self: center;
+}
+
+footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .foot{
+        display: grid;
+        grid-template-columns:1fr;
+        list-style: none;
+        text-decoration: none;
+        background-color: grey;
+        justify-content: center;
+        
+    }
+    p{  
+        height: 5px;
+        color: white;
+        justify-self: center;
+    }
+    
+    footer{
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+    }
+
+}

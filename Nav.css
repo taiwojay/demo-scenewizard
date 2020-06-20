@@ -1,0 +1,41 @@
+nav{
+  display: flex;
+  background-color: black;
+  margin: 0em;
+}
+
+a{
+  padding-top: 10px;
+}
+
+.title{
+  padding-left: 15px ;
+  color: white;
+  font-size: 175%;
+}
+
+.topnav{
+  justify-content: right;
+ 
+}
+
+ul{
+  list-style: none;
+}
+
+.navel{
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  justify-self: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+  .title{
+    font-size: 120%;
+  }
+
+  .navel{
+    font-size: 80%;
+  }
+}

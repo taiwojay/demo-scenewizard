@@ -1,0 +1,136 @@
+ .containerg{
+     padding: 10px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     height: 50vh;
+ }
+
+
+ .boxg{
+     justify-content: right;
+     transition: 0.6s;
+     background-repeat: no-repeat;
+     padding: 30px;
+     max-width: 100%;
+     max-height: 100%;
+     background-size: 100%;
+     
+ }
+ 
+ .boxg:hover{
+      transform: scale(1.1);
+ }
+
+ .gridtextg{
+    color: white;
+    font-size: 240%;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-weight: normal;
+    text-decoration: none;
+    }
+
+
+
+
+.movies{
+    background-image: url(johnwick.jpg);
+    transition: 1s;
+}
+
+.movies:hover{
+    background-image: url(slpb.jpeg);
+}
+
+.series{
+    background-image: url(hope1.jpeg);
+    transition: 1s;
+}
+.series:hover{
+    background-image: url(tommy.jpg);
+}
+
+.animations{
+    background-image: url(trolls.jpg);
+    transition: 1s;
+}
+
+.animations:hover{
+    background-image: url(frozen2.jpeg);
+}
+
+.games{
+    background-image: url(acsy.jpeg);
+    transition: 1s;
+}
+
+.games:hover{
+    background-image: url(geralt.jpeg);
+}
+
+.marveldc{
+    background-image: url(ww2.jpeg);
+    transition: 1s;
+}
+
+.marveldc:hover{
+    background-image: url(spdm3.jpeg);
+}
+
+.black{
+    background: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .containerg{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+    .gridtextg{
+        font-size: 250%;
+        writing-mode:horizontal-tb ;
+    }
+    .boxg{
+        background-size: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        height: 30vh;
+        width: 100%;
+    }
+
+    .games{
+        background-image: url(uncharted.jpg);
+    }
+    .series{
+        background-image: url(GoT.jpg);
+    }
+    .animations{
+        background-image: url(moana.jpg);
+    }
+    .movies{
+        background-image: url(worldwarz.jpg);
+    }
+    .marveldc{
+        background-image: url(spdmland.jpeg);
+    }
+    
+    /* hover effect */
+    .games:hover{
+        background-image: url(uncharted.jpg);
+    }
+    .series:hover{
+        background-image: url(GoT.jpg);
+    }
+    .animations:hover{
+        background-image: url(moana.jpg);
+    }
+    .movies:hover{
+        background-image: url(worldwarz.jpg);
+    }
+    .marveldc:hover{
+        background-image: url(spdmland.jpeg);
+    }
+
+}
+
