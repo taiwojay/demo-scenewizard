@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Cover from '../Cover/Cover';
+import Cover from './Cover';
 import './Grid.css'
 
 
