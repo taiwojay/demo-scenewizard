@@ -1,0 +1,18 @@
+.gamegrid{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.gamegridvideos{
+    background-color: grey;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: grey;
+
+}
+.cattitle{
+    font-size: 200%;
+    font-weight: bolder;
+}
